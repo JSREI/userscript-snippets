@@ -24,3 +24,7 @@ function stringAlignRight(s, length, c) {
     }
     return s;
 }
+
+// 直接调用方法会返回格式化好的当前时间
+console.log(now());
+// Output: [2023-12-27 22:45:15.082]
